@@ -1,0 +1,10 @@
+voices
+asian woman : 'zh-CN-shaanxi-XiaoniNeural'
+american guy : 'en-US-SteffanNeural'
+japanese guy : 'fi-FI-HarriNeural'
+indian woman : 'gu-IN-DhwaniNeural'
+russian guy : 'hu-HU-TamasNeural'
+indian guy : 'gu-IN-NiranjanNeural'
+spanish guy : 'es-MX-JorgeNeural'
+arabic guy : 'ar-OM-AbdullahNeural'
+in
