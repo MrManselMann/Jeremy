@@ -1,0 +1,15 @@
+2024-09-22 09:51:46.397424 
+the JSON object must be str, bytes or bytearray, not list
+2024-09-22 11:07:31.740860 
+the JSON object must be str, bytes or bytearray, not list
+2024-09-22 11:12:16.169048 
+
+    Error 263 for command:
+        open audio/processing.mp3
+    The specified device is not open or is not recognized by MCI.
+2024-09-22 11:40:26.728567 
+'like_count'
+2024-09-22 11:42:16.325982 
+'like_count'
+2024-09-22 12:13:06.487962 
+[0;31mERROR:[0m [youtube] NPdgPZ0u3zQ: Requested format is not available. Use --list-formats for a list of available formats
