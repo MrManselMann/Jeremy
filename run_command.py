@@ -3,6 +3,11 @@ import tts
 import playsound
 import webbrowser
 from ytmusicapi import YTMusic
+import gtk
+import webkit
+import gobject
+import urllib
+
 
 # AI setup
 device_type = "gpu" # gpu or cpu
@@ -44,7 +49,15 @@ def run_command(command):
         else:
             print("No query provided for play command.")
     elif command.startswith("calculate"):
-        pass
+        query = command.replace("calculate","")
+        gobject.threads_init()
+        win = gtk.Window()
+        bro = webkit.WebView()
+        bro.open("https://www.wolframalpha.com/input?i="+urllib.parse.quote_plus(query))
+        win.add(bro)
+        win.show_all()
+        gtk.main()
+
     else:
         with model.chat_session():
             response_text = model.generate(ai_prompt + command, max_tokens=512)
